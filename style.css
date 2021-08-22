@@ -1,0 +1,84 @@
+
+.middle-area{
+	width: 50%;
+	margin: auto;
+}
+.form-area form .form1{
+	width: 100%; 
+}
+
+.form-area form{
+	margin: auto;
+}
+.form-area form .form1   input{
+	padding: 15px;
+	margin: 10px;
+	margin:10px;
+	width: 70%;
+	border-radius: 5px;
+	border: 2px solid #e1e1e1;
+	font-size: 14px;
+	color: #5d5d5d;
+}
+
+.form-area h2{
+	color: #303030;
+	background: #c9c9c9;
+	width: 40%; 
+	margin-left: 11px;
+}
+
+ .call-to-action-button a input{
+	width: 70%;
+	background: #cc333d;
+	padding: 20px 0;
+	border-radius: 5px;
+	margin-top: 7%;
+	display: inline-block;
+	margin-left: 10px;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	font-size: 22px;
+}
+
+/* responsive design here */
+
+@media all and (max-width: 1325px){	
+	.form-area h2{
+		width: 50%; 
+	}
+}
+
+
+@media all and (max-width: 1095px){	
+	.form-area h2{
+		width: 55%; 
+		font-size: 20px;
+	}
+}
+
+@media all and (max-width: 830px){	
+	.form-area h2{
+		width: 80%; 
+		font-size: 20px;
+	}
+	
+	
+
+.form-area form .form1   input{
+	width: 90%;
+ }
+}
+
+
+@media all and (max-width: 600px){	
+	.form-area h2{
+		width: 90%; 
+		font-size: 17px;
+	}
+	.form-area form .form1   input{
+	width: 100%;
+ }
+ 
+}
